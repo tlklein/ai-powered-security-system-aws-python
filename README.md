@@ -1,20 +1,10 @@
 # intruder-detection-python-aws-surveillance
 
-<p align="center">
-<a href="https://www.youtube.com/watch?v=ZvBZh8ky-zQ">
-    <img width="100%" src="thumbnail.jpg" alt="Watch the video">
-</a>
-</p>
-
 ## pipeline
 
 <p align="center">
-    <img src="https://github.com/computervisioneng/intruder-detection-python-aws-surveillance/blob/main/pipeline.jpg" alt="Project pipeline">
+    <img src="https://github.com/tlklein/intruder-detection-python-aws-surveillance/blob/f93fc607e38af8e05079e4a81ea25ef3a2487d25/pipeline.jpg" alt="Project pipeline">
 </p>
-
-## code
-
-If you watch the video, you'll notice a minor bug towards the end. It pertains to the consumer responsible for the intruder detection in the code that adds a new item to the database. The issue has been addressed in the corrected code provided [here](https://github.com/computervisioneng/intruder-detection-python-aws-surveillance/blob/main/intruder-detection/kvs_consumer_library_example.py).  
 
 ## execution
 
