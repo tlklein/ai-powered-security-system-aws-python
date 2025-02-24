@@ -1,18 +1,32 @@
-# intruder-detection-python-aws-surveillance
+<h1 align="center"> AI-Powered Security System using AWS Surveillance & Python </h1>
 
-## pipeline
+<p align="center">This project builds a smart security surveillance system using AWS machine learning services and Python. The system processes video streams, detects intruders using AI, and sends alerts in real-time.</p> 
+
+## Architecture
+### AWS Services used: 
+- Amazon Kinesis Video Streams
+- Amazon EC2 
+- Amazon Rekognition
+- Amazon DynamoDB
+- Amazon S3 
+- Amazon SNS
+
+### Languages:
+- Python 
+
+## Project Pipeline
 
 <p align="center">
     <img src="https://github.com/tlklein/intruder-detection-python-aws-surveillance/blob/f93fc607e38af8e05079e4a81ea25ef3a2487d25/pipeline.jpg" alt="Project pipeline">
 </p>
 
-## execution
+## Execution Instructions 
 
-### setting up producer
+### Setting Up Producer
 
 Please go [here](https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp) for a more comprehensive explanation of how to setup the producer depending on your OS.
 
-This is how to set it up from Ubuntu:
+This is how to set it up from **Ubuntu**:
 
       sudo apt update
 
@@ -50,7 +64,7 @@ This is how to set it up from Ubuntu:
       gst-launch-1.0 v4l2src do-timestamp=TRUE device=/dev/video0 ! videoconvert ! video/x-raw,format=I420,width=640,height=480,framerate=30/1 ! x264enc  bframes=0 key-int-max=45 bitrate=500 ! video/x-h264,stream-format=avc,alignment=au,profile=baseline ! kvssink stream-name=STREAM-NAME storage-size=512 access-key=ACCESS_KEY secret-key=SECRET_KEY aws-region=REGION_NAME
 
 
-### setting up consumer #1: backup
+### Setting Up Consumer #1: Backup
 
 - Go to S3 and create an S3 bucket.
 - Go to EC2 and launch a t2.medium instance with 8GB storage size.
@@ -80,7 +94,7 @@ This is how to set it up from Ubuntu:
       cd ~/amazon-kinesis-video-streams-consumer-library-for-python
       python kvs_consumer_library_example.py
 
-### setting up consumer #2: intruder detection
+### Settting Up Consumer #2: Intruder Detection
 
 - Go to S3 and create an S3 bucket.
 - Go to DynamoDB and create a table.
@@ -115,3 +129,13 @@ This is how to set it up from Ubuntu:
 
       cd ~/amazon-kinesis-video-streams-consumer-library-for-python
       python kvs_consumer_library_example.py
+
+## Code References / Libraries
+1. Machine learning with AWS practical project | Building a security system with Python
+- Link: https://www.youtube.com/watch?v=ZvBZh8ky-zQ&ab_channel=Computervisionengineer
+
+2. Amazon Kinesis Video Streams CPP Producer, GStreamer Plugin and JNI
+- Link: https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp 
+
+3. Amazon Kinesis Video Streams Consumer Library For Python
+- Link: https://github.com/aws-samples/amazon-kinesis-video-streams-consumer-library-for-python
