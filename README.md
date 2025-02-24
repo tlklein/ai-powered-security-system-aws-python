@@ -136,10 +136,10 @@ This is how to set it up from **Ubuntu**:
 
 ## Code References / Libraries
 1. Machine learning with AWS practical project | Building a security system with Python
-Link: https://www.youtube.com/watch?v=ZvBZh8ky-zQ&ab_channel=Computervisionengineer
+      - Link: https://www.youtube.com/watch?v=ZvBZh8ky-zQ&ab_channel=Computervisionengineer
 
 2. Amazon Kinesis Video Streams CPP Producer, GStreamer Plugin and JNI
-Link: https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp 
+      - Link: https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp 
 
 3. Amazon Kinesis Video Streams Consumer Library For Python
-Link: https://github.com/aws-samples/amazon-kinesis-video-streams-consumer-library-for-python
+      - Link: https://github.com/aws-samples/amazon-kinesis-video-streams-consumer-library-for-python
