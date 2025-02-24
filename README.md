@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://www.coventry.ac.uk/globalassets/media/global/08-new-research-section/iftc/cemr-banner-picture-855-230-businessman-on-blurred-background-using-antivirus-to-block-a-cyber-attack-3d-rendering.jpg" alt="Header">
+</p>
+
 <h1 align="center"> AI-Powered Security System using AWS Surveillance & Python </h1>
 
 <p align="center">This project builds a smart security surveillance system using AWS machine learning services and Python. The system processes video streams, detects intruders using AI, and sends alerts in real-time.</p> 
@@ -132,10 +136,10 @@ This is how to set it up from **Ubuntu**:
 
 ## Code References / Libraries
 1. Machine learning with AWS practical project | Building a security system with Python
-- Link: https://www.youtube.com/watch?v=ZvBZh8ky-zQ&ab_channel=Computervisionengineer
+Link: https://www.youtube.com/watch?v=ZvBZh8ky-zQ&ab_channel=Computervisionengineer
 
 2. Amazon Kinesis Video Streams CPP Producer, GStreamer Plugin and JNI
-- Link: https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp 
+Link: https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp 
 
 3. Amazon Kinesis Video Streams Consumer Library For Python
-- Link: https://github.com/aws-samples/amazon-kinesis-video-streams-consumer-library-for-python
+Link: https://github.com/aws-samples/amazon-kinesis-video-streams-consumer-library-for-python
