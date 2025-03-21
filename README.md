@@ -6,18 +6,6 @@
 
 <p align="center">This project builds a smart security surveillance system using AWS machine learning services and Python. The system processes video streams, detects intruders using AI, and sends alerts in real-time.</p> 
 
-## Architecture
-### AWS Services used: 
-- Amazon Kinesis Video Streams
-- Amazon EC2 
-- Amazon Rekognition
-- Amazon DynamoDB
-- Amazon S3 
-- Amazon SNS
-
-### Languages:
-- Python 
-
 ## Project Pipeline
 
 <p align="center">
